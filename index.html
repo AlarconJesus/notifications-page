@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="noti">
+    <div class="noti-header">
+      <h2 class="noti-title">Notifications <span class="noti-number" id="noti-number">3</span> </h2>
+      <a href="#" id="mark-viewed" class="noti-mark">Mark all as read</a> 
+    </div>
+    
+    <div class="noti-item not-viewed">
+      <img src="./assets/images/avatar-mark-webber.webp" alt="avatar" class="noti-img">     
+      <div>
+        <p>
+          <a href="#" class="noti-user">
+            Mark Webber
+          </a>
+          reacted to your recent post <a href="#"  class="post">My first tournament today!</a>
+          <span class="circle">
+          </span>
+        </p>
+        <span class="time-ago">1m ago</span>
+      </div>
+    </div>
+
+    <div class="noti-item not-viewed">
+      <img src="./assets/images/avatar-angela-gray.webp" alt="avatar" class="noti-img">
+      <div>
+        <p>
+          <a href="#"  class="noti-user">
+            Angela Gray
+          </a> followed you
+          <span class="circle">
+          </span>
+        </p>
+        <span class="time-ago">5m ago</span>
+      </div>
+
+    </div>
+
+    <div class="noti-item not-viewed">
+      <img src="./assets/images/avatar-jacob-thompson.webp" alt="avatar" class="noti-img">
+      <div>
+        <p>
+          <a href="#" class="noti-user">
+            Jacob Thompson
+          </a> as joined your group <a href="#" class="group">Chess Club</a>
+          <span class="circle">
+          </span>
+        </p>
+        <span class="time-ago">1 day ago</span>
+      </div>
+    </div>
+
+    <div class="noti-item noti-message">
+      <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="avatar" class="noti-img">
+      <div>
+        <p>
+          <a href="#" class="noti-user">
+            Rizky Hasanuddin
+          </a> sent you a private message
+        </p>
+        <span class="time-ago">1 day ago</span>
+      </div>
+      <div class="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+        I'm already having lots of fun and improving my game.</div>
+    </div>
+
+  <div class="noti-item">
+    <img src="./assets/images/avatar-kimberly-smith.webp" alt="avatar" class="noti-img">
+    <div>
+      <p>
+        <a href="#" class="noti-user">
+          Kimberly Smith
+        </a> commented of your picture
+      </p>
+      <span class="time-ago">1 week ago</span>
+    </div>
+  </div>
+
+  <div class="noti-item">
+    <img src="./assets/images/avatar-nathan-peterson.webp" alt="avatar" class="noti-img">
+    <div>
+      <p>
+        <a href="#"class="noti-user">
+          Nathan Peterson
+        </a> reacted to your recent post <a href="#"  class="post">5 end-game strategies to increase your win rate</a>
+      </p>
+      <span class="time-ago">2 weeks ago</span>
+    </div>
+  </div>
+
+  <div class="noti-item">
+    <img src="./assets/images/avatar-anna-kim.webp" alt="avatar" class="noti-img">
+    <div>
+      <p>
+        <a href="#" class="noti-user">
+          Anna kim
+        </a> left the group <a href="#" class="group">Chess Club</a>
+      </p>
+      <span class="time-ago">2 weeks ago</span>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="./js/code.js"></script>
+</body>
+</html>
